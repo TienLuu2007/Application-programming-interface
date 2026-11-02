@@ -101,8 +101,8 @@ Receives an English financial text string, invokes `ProsusAI/finbert`, and retur
 
 - **Example Request 2 (Negative Sentiment):**
   ```bash
-  curl -X POST [http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict) \
-       -H "Content-Type: application/json" \
+  curl -X POST [http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict)
+       -H "Content-Type: application/json"
        -d '{"text": "Operating profit fell 25% due to rising supply chain costs and weak demand."}'
   ```
 - **Example Response 2 (`200 OK`):**
@@ -133,4 +133,4 @@ Receives an English financial text string, invokes `ProsusAI/finbert`, and retur
   ```
 
 ## **Demonstration Video**
-- **Video Link:** [Watch the Demo Video](PASTE_YOUR_VIDEO_LINK_HERE)
+- **Video Link:** [25127242_LuuMinhTien](https://drive.google.com/file/d/14kQs2CL5QG6d2_FO1tEdPb9V4K34sKku/view?usp=sharing)
